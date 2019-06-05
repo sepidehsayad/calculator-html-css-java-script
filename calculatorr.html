@@ -5,287 +5,97 @@
 
  <style>
 
-.container{ 
-    width: 299px; 
-    height:560px; 
-    background-color: black ;color: whitesmoke;
-    margin: 50px auto; 
-    position: relative;
-}
+div{ width: 290px; height: 600px; margin: 10px;background-color: black ;color: whitesmoke;}
 
 .button {
     border: none;
     color: white;
     padding: 20px;
-    height: 30;
-    text-align: center;
+   height: 30;
+   text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 16p;
     margin: 4px 2px;
     cursor: pointer;
     float: left;
+
 }
 
-.button1 {
-    background-color: #3f3f3b;
-    border-radius: 16px; 
-    position: absolute; 
-    bottom: 50px; 
-    width: 120px; 
-    height:60px; 
-    text-align: center;
-    left:30px;
-}
-.button2 {background-color: #3f3f3b;
-        position: absolute;
-         bottom: 50px;
-          left: 160px; 
-          border-radius: 100%;
-           width: 60px; 
-           height:60px; 
-           text-align: center ; }
-
-.button3 {background-color: #ffb006;
-            position: absolute;
-             bottom: 50px;
-              left: 230px; 
-              border-radius: 100%;
-               width: 60px;
-                height:60px;
-                 text-align: center ;}
-
-
-
-
-.button4 {background-color: #3f3f3b;
-        position: absolute; 
-        bottom: 118px;
-         left: 30px;
-          border-radius: 100%;
-           width: 60px;
-            height:60px;
-             text-align: center ;
-}
-
-
-
-.button5 {background-color: #3f3f3b;
-        position: absolute;
-         bottom: 118px;
-          left: 95px; 
-          border-radius: 100%; 
-          width: 60px;
-           height:60px;
-            text-align: center ;
-}
-
-.button6 {background-color: #3f3f3b;
-        position: absolute;
-         bottom: 118px;
-          left: 160px; 
-          border-radius: 100%; 
-          width: 60px;
-           height:60px;
-            text-align: center ;}
-
-
-.button7 {background-color: #ffb006;
-        position: absolute;
-         bottom: 118px;
-          left: 230px; 
-          border-radius: 100%;
-           width: 60px; 
-           height:60px; 
-           text-align: center ;}
-
-
-
-.button8 {background-color: #3f3f3b;
-        position: absolute;
-         bottom: 184px; 
-         left: 30px; 
-         border-radius: 100%; 
-         width: 60px;
-          height:60px;
-           text-align: center ;
-}
-.button9 {background-color: #3f3f3b;
-            position: absolute; 
-            bottom: 184px; 
-            left: 95px; 
-            border-radius: 100%; 
-            width: 60px;
-             height:60px; 
-             text-align: center ;
-}
-
-.button10 {background-color: #3f3f3b; 
-            position: absolute;
-             bottom: 184px; 
-             left: 160px;
-              border-radius: 100%;
-               width: 60px;
-                height:60px; 
-                text-align: center ;
-}
-
-.button11 {background-color: #ffb006;
-        position: absolute; 
-        bottom: 184px; 
-        left: 230px; 
-        border-radius: 100%;
-         width: 60px; 
-         height:60px; 
-         text-align: center ;}
-
-
-.button12 {
-    background-color: #3f3f3b;
-    position: absolute;
-     bottom: 250px;
-      left: 30px;
-       border-radius: 100%;
-        width: 60px; 
-        height:60px; 
-        text-align: center ;
-}
-
-
-.button13 {background-color: #3f3f3b;
-        position: absolute;
-         bottom: 250px; 
-         left: 95px; 
-         border-radius: 100%; 
-         width: 60px; 
-         height:60px; 
-         text-align: center ;
-}
-
-
-.button14 {background-color: #3f3f3b;
-            position: absolute;
-             bottom: 250px;
-              left: 160px;
-               border-radius: 100%;
-                width: 60px;
-                 height:60px;
-                  text-align: center ;
-}
-
-.button15 { 
-    background-color: #ffb006;
-    position: absolute; 
-    bottom: 250px; 
-    border-radius: 100%; 
-    width: 60px; 
-    height:60px; 
-    text-align: center;
-    right: 5px;
-}
-
-.button16 { color: black;
-            background-color: #cfcfc5; 
-            position: absolute;
-             bottom: 315px;
-              left: 30px; 
-              border-radius: 100%;
-               width: 60px; 
-               height:60px;
-                text-align: center ;}
-.button17 { color: black; 
-            background-color: #cfcfc5;
-            position: absolute;
-             bottom: 315px;
-              left: 96px;
-               border-radius: 100%; 
-               width: 60px;
-                height:60px;
-                 text-align: center ;}
-.button18 { color: black;
-            background-color: #cfcfc5;
-            position: absolute; 
-            bottom: 315px;
-             left: 160px;
-              border-radius: 100%;
-               width: 60px; 
-               height:60px;
-                text-align: center ;}
-.button19 { 
-    background-color: #ffb006;
-    position: absolute; 
-    bottom: 315px; 
-    right: 5;
-    border-radius: 100%; 
-    width: 60px;
-    height:60px; 
-    text-align: center;
-}
+.button1 {background-color: #3f3f3b;border-radius: 16px; position: fixed; bottom: 50px; left: 30px ; width: 120px ; height:60px; text-align: center ;}
+.button2 {background-color: #3f3f3b;position: fixed; bottom: 50px; left: 160px; border-radius: 100%; width: 60px; height:60px; text-align: center ; }
+.button3 {background-color: #ffb006;position: fixed; bottom: 50px; left: 230px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button4 {background-color: #3f3f3b;position: fixed; bottom: 118px; left: 30px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button5 {background-color: #3f3f3b;position: fixed; bottom: 118px; left: 95px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button6 {background-color: #3f3f3b;position: fixed; bottom: 118px; left: 160px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button7 {background-color: #ffb006;position: fixed; bottom: 118px; left: 230px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button8 {background-color: #3f3f3b;position: fixed; bottom: 184px; left: 30px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button9 {background-color: #3f3f3b;position: fixed; bottom: 184px; left: 95px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button10 {background-color: #3f3f3b;position: fixed; bottom: 184px; left: 160px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button11 {background-color: #ffb006;position: fixed; bottom: 184px; left: 230px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button12 {background-color: #3f3f3b;position: fixed; bottom: 250px; left: 30px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button13 {background-color: #3f3f3b;position: fixed; bottom: 250px; left: 95px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button14 {background-color: #3f3f3b;position: fixed; bottom: 250px; left: 160px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button15 {background-color: #ffb006;position: fixed; bottom: 250px; left: 230px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button16 { color: black;background-color: #cfcfc5;position: fixed; bottom: 315px; left: 30px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button17 { color: black;background-color: #cfcfc5;position: fixed; bottom: 315px; left: 96px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button18 { color: black;background-color: #cfcfc5;position: fixed; bottom: 315px; left: 160px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
+.button19 {background-color: #ffb006;position: fixed; bottom: 315px; left: 230px; border-radius: 100%; width: 60px; height:60px; text-align: center ;}
 
 
 .input{
-    position: absolute;
-    top: 130px;
-    height: 20px;
+
+
+    position: static;
     width: 100%;
+    left: 300px;
+    padding: 12px 20px;
+    margin: 217px 0px;
+    box-sizing: border-box;
+    border: none;
     background-color:black;
     color: white;
     text-align: right;
     font-size: 30px;
-    box-sizing: border-box;
-    padding: 10px;
+
 }
 
 
 </style>
 
 
+<script>
+    
+</script>
 </head>
 
 <body>
 
-<div class="container">
-    <button class="button button1" id = "button1" value="0">0</button>
-    <button class="button button2"  id = "button1" value = "." >.</button>
-    <button class="button button3"  id = "button1" value = "=" >=</button>
-    <button class="button button4" id="button1" value = "1">1</button>
-    <button class="button button5"  id = "button1" value = "2">2</button>
-    <button class="button button6" id = "button1" value = "3">3</button>
-    <button class="button button7"  id = "button1" value = "+">+</button>
-    <button class="button button8"  id = "button1" value = "4">4</button>
-    <button class="button button9"  id = "button1" value = "5">5</button>
-    <button class="button button10"  id = "button10" value = "6">6</button>
-    <button class="button button11"  id = "button11" value = "-">-</button>
-    <button class="button button12"  id = "button12" value = "7">7</button>
-    <button class="button button13"  id = "button13" value = "8">8</button>
-    <button class="button button14" id = "button14" value = "9">9</button>
-    <button class="button button15"  id = "button15" value = "&#215">&#215</button>
-    <button class="button button16"  id = "button16" value = "10">C</button>
-    <button class="button button17"  id = "button17" value = "-">+/-</button>
-    <button class="button button18"  id = "button18" value = "%">%</button>
-    <button class="button button19"  id = "button" value = "&#247"> &#247</button>
-    <div class="input" id="display">
-        <label id="sep"></label>
-    </div>
+<div>
+
+<button class="button_button1" onclick="f()" value="0">0</button>
+<button class="button button2" onclick="f2()" >.</button>
+<button class="button button3" onclick="f3()" >=</button>
+<button class="button button4" onclick="f4()">1</button>
+<button class="button button5" onclick="f5()">2</button>
+<button class="button button6" onclick="f6()">3</button>
+<button class="button button7" onclick="f7()">+</button>
+<button class="button button8" onclick="f8()">4</button>
+<button class="button button9" onclick="f9()">5</button>
+<button class="button button10" onclick="f10()">6</button>
+<button class="button button11" onclick="f11()">-</button>
+<button class="button button12" onclick="f12()">7</button>
+<button class="button button13" onclick="f13()">8</button>
+<button class="button button14" onclick="f14()">9</button>
+<button class="button button15" onclick="f15()">&#215</button>
+<button class="button button16" onclick="f16()">C</button>
+<button class="button button17" onclick="f17()">+/-</button>
+<button class="button button18" onclick="f18()" >%</button>
+<button class="button button19" onclick="f19()"> &#247</button>
+<input class = "input input1" id ="display" placeholder="0">
+
+
+
 </div>
-
-
-<script>
-    var txt =" " ;
-   var button = document.getElementById('button1'); 
-
-   var div = document.getElementById('display');
-   document.getElementById('sep').value = 'sadsadad';
-   button.addEventListener('click', f());
-   function f() {
-       console.log('hello sep');
-       txt += button.innerText;
-       div.innerText = txt;
-      
-   };
-   
-
-</script>
-
 
 
 </body>
